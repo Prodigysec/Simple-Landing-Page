@@ -49,10 +49,12 @@ span {
 
 #content .description .info h2 {
     font-size: 54px;
+    margin-bottom: 0;
 }
 
 #content .description .info p {
     font-size: 20px;
+    margin-top: 0;
 }
 
 
