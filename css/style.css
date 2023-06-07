@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
 }
 
 #landing-page {
@@ -11,9 +11,10 @@ body {
 
 #header {
     display: flex;
-    /* align-items: center; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     justify-content: center;
     padding-top: 27px;
+    padding-bottom: 10px;
     gap: 400px;
     
 }
@@ -58,9 +59,12 @@ span {
     margin-top: 0;
 }
 
+button {
+    color: white;
+}
 
 #content button:first-of-type {
-    background-color: red;
+    background-color: #F90550;
     border-radius: 6px;
     border: none;
     height: 35px;
@@ -68,7 +72,7 @@ span {
 }
 
 #content button:last-of-type {
-    background-color: red;
+    background-color: #F90550;
     border-radius: 6px;
     border: none;
     margin-left: 11px;
