@@ -45,6 +45,7 @@ span {
     justify-content: center;
     align-items: center;
     gap: 160px;
+    padding-top: 75px;
 }
 
 #content .description .info h2 {
